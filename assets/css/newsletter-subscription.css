@@ -1,0 +1,58 @@
+.ns-newsletter-wrapper {
+  padding: 24px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9f9f9;
+}
+
+.ns-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.ns-subtitle {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #666;
+}
+
+form#ns-newsletter-form input {
+  margin: 0px !important;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.ns-submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0073aa;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ns-submit-button:hover {
+  background-color: #005f8d;
+}
+
+.ns-message {
+  font-size: 14px;
+}
+
+form#ns-newsletter-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

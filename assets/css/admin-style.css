@@ -1,0 +1,24 @@
+.ns-settings-form {
+  max-width: 700px;
+  margin-top: 20px;
+}
+
+.ns-field {
+  margin-bottom: 20px;
+}
+
+.ns-field label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.ns-field input.regular-text {
+  width: 100%;
+  max-width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccd0d4;
+  border-radius: 4px;
+}
