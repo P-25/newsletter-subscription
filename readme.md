@@ -27,3 +27,12 @@ Add the shortcode `[newsletter_form]` to any post, page, or widget to display th
 
 - The form uses AJAX to submit data without refreshing the page.
 - API requests are made using `wp_remote_post()` with nonce protection.
+
+## Customizing the Form
+
+To override the default form markup from your theme or child theme, follow these steps:
+
+1. Create a folder in your (child) theme named `newsletter-subscription`.
+2. Copy the plugin's template file located at: `wp-content/plugins/newsletter-subscription/templates/newsletter-form.php`.
+3. Paste the copied `newsletter-form.php` file into the folder created in step 1.
+   > The plugin automatically checks for `newsletter-subscription/newsletter-form.php` in the active theme before falling back to its own default template.
